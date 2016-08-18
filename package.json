@@ -1,0 +1,18 @@
+{
+  "name": "mumble-alexa-bot",
+  "version": "0.0.1",
+  "description": "mumble bot designed to talk to AVS",
+  "main": "run.js",
+  "scripts": {
+    "start": "nodejs ./run.js"
+  },
+  "author": "jason brown",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "mumble": "^0.3.10",
+    "request": "^2.74.0",
+    "speaker": "^0.3.0",
+    "streamifier": "^0.1.1"
+  }
+}
